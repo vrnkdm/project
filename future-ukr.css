@@ -1,0 +1,195 @@
+body {
+    
+    font-family: sans-serif;
+    background-color: #162636;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.menu {
+
+    top: 0;
+    background-color:#020d02;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first_ul {
+
+    list-style-type: none;
+
+}
+
+.first_li {
+
+    display: inline-block;
+
+}
+
+.first_a {
+
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px 5px 15px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 20px;
+    color: #ffffff;
+
+}
+
+.first_a:hover {
+
+    background-color: #8bb3da;
+    
+}
+
+.navigation_on_foto {
+
+    background: linear-gradient(#121213, #000000cc), url("https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2015/09/12/150912103819_wikipedia_images_976x549_roxanabashyrova.jpg.webp");
+    top: 0;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 10px #8bb3da;
+    font-size: 52px;
+    background-attachment: fixed;
+}
+
+
+.slider {
+
+    list-style: none; 
+    padding: 0;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 1500px; /* максимальна ширина, враховуючи розширення картинок */
+    height: 500px; /* висота картинок */
+    overflow: hidden; /* Якщо якісь елементи виходять за межі */
+}
+  
+.slider .item {
+
+    flex: 1; /* Щоб рівномірно розподілялися */
+    height: 100%;
+    background: no-repeat center/cover; /* Щоб фон не повторювався і був масштабований */
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: flex 0.5s ease-in-out;
+
+}
+  
+.slider .item:hover {
+
+    flex: 3; /* При наведенні розширюємо елемент */
+
+}
+
+
+
+
+
+p {
+    color: #ffffff;
+    padding: 10px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container {
+  
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    overflow: auto; /* Додає прокрутку, якщо контент виходить за межі */
+    margin-top: 20px; /* Додає відступ, щоб блоки не накладалися */
+
+}
+
+.box {
+
+    font-size: 25px;
+    background-color: #8bb3da;;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 25px;
+    
+}
+
+.hidden {
+
+    display: none;
+    
+}
+
+.apparent {
+
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px; /* Запобігає зміщенню елементів при перемиканні */
+    border-radius: 10px;
+    position: relative; /* Блоки залишаються всередині */
+   
+}
+
+/* Хрестик для закриття */
+.close-btn {
+
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+
+}
+
+.aboutas {
+
+   /* display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    padding-bottom: 15px;
+    background: linear-gradient(#121213, #000000cc), url("https://media.istockphoto.com/id/517188688/de/foto/berglandschaft.jpg?s=612x612&w=0&k=20&c=o-aMrF8VR-eelasAPmp7gFtbVy3ssL8UDZff5fTran8=");
+    top: 0;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+   
+    /*text-shadow: 2px 2px 10px #8bb3da;
+    font-size: 52px;
+    background-attachment: fixed;*/
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+
+
+  
